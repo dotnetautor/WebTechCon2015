@@ -1,0 +1,11 @@
+{
+  "name": "WTC2015",
+  "dependencies": {
+    "ionic": "^1.1.0",
+    "angular-resource": "^1.4.5",
+    "ngCordova" : "^0.1.20-alpha"
+  },
+  "resolutions": {
+    "angular": ">= 1.0.8"
+  }
+}

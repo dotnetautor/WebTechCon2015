@@ -1,0 +1,13 @@
+﻿<ion-view title="Camera">
+
+  <ion-content class="padding">
+    <button class="button button-energized" ng-click="addImage()">
+      Add image
+    </button><br><br>
+    <ion-scroll>
+      <img ng-repeat="image in images" ng-src="{{image}}" height="200px"/><br/>
+    </ion-scroll>
+
+  </ion-content>
+
+</ion-view>
