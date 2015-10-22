@@ -4,9 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
  
-  <title>WTC2015</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.googleapis.com/ https://maps.gstatic.com/ https://mts0.googleapis.com/ https://mts1.googleapis.com/ 'unsafe-inline' 'unsafe-eval'">
 
+
+  <title>WTC2015</title>
   <link href="css/vendor.css" rel="stylesheet">
+
+  <style type="text/css" >
+    .angular-google-map-container { height: 400px; }
+  </style>
 
   <script src="scripts/platformOverrides.js"></script>
   <script src="cordova.js"></script>

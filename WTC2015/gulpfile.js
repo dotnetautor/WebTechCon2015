@@ -13,6 +13,7 @@ gulp.task('jsLibs', function () {
   gulp.src(plugins.mainBowerFiles())
 		.pipe(plugins.filter('*.js'))
     .pipe(plugins.order([
+      "lodash.js",
       "angular.js",
       "angular-*.js",
       "ionic.js",
